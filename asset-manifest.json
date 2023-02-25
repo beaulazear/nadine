@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/beaulazear/nadine.git/static/css/main.1f1382cc.css",
+    "main.js": "/beaulazear/nadine.git/static/js/main.c5874481.js",
+    "static/js/787.43ec33d4.chunk.js": "/beaulazear/nadine.git/static/js/787.43ec33d4.chunk.js",
+    "index.html": "/beaulazear/nadine.git/index.html",
+    "main.1f1382cc.css.map": "/beaulazear/nadine.git/static/css/main.1f1382cc.css.map",
+    "main.c5874481.js.map": "/beaulazear/nadine.git/static/js/main.c5874481.js.map",
+    "787.43ec33d4.chunk.js.map": "/beaulazear/nadine.git/static/js/787.43ec33d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f1382cc.css",
+    "static/js/main.c5874481.js"
+  ]
+}
