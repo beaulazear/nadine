@@ -13,6 +13,9 @@ export default function Resume() {
         <div className="resumeComponentDiv">
             <NavLinks />
             <Header title={resumeTitle} />
+            <h2>Education:</h2>
+            <p>Bachelor of Arts in Cultural Anthropology,</p>
+            <p>Fall 2017 Kent State University, Kent, Ohio</p>
             <h2>Professional Experience:</h2>
             <ul className="jobUl">
                 {jobData.map((job) => {

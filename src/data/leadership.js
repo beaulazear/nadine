@@ -51,6 +51,30 @@ const leadershipData = [
                 roll: "Processed inventory before and after each Cultural Arts concert and placed orders"
             }
         ]
+    },
+    {
+        id: 3,
+        companyName: "Kent State University, Resident Services",
+        jobTitle: "Resident Assistant",
+        datesWorked: "August - December 2014",
+        jobDescriptions: [
+            {
+                id: 1,
+                roll: "Helped residents adjust to college by building relationships and being a support system for each person"
+            },
+            {
+                id: 2,
+                roll: "Facilitated social events residents could attend and engage with one another to nurture community"
+            },
+            {
+                id: 3,
+                roll: "Collaborated with RAs to make hall wide improvements that benefit the students"
+            },
+            {
+                id: 4,
+                roll: "Budgeted money and time necessary to host programs/events for residents"
+            }
+        ]
     }
 ]
 

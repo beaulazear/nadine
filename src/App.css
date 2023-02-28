@@ -10,9 +10,38 @@
 .homeComponentDiv {
   padding-left: 10px;
 }
+.testimonialDiv{
+  padding-left: 10px;
+}
 .jobUl {
   padding: 0%;
 }
 .jobDescriptionLis {
   padding-bottom: 5px;
+}
+footer{
+  color: black;
+  font-size: 18px;
+  font-style: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-top: 0;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
 }

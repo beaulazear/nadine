@@ -15,6 +15,7 @@ export default function NavLinks() {
     return (
         <div className="navLinksComponentDiv">
             <NavLink to="/" exact style={linkStyles} activeStyle={{background: "darkblue"}}>Home</NavLink>
+            <NavLink to="/testimonials" exact style={linkStyles} activeStyle={{background: "darkblue"}}>Testimonials</NavLink>
             <NavLink to="/resume" exact style={linkStyles} activeStyle={{background: "darkblue"}}>Resume</NavLink>
         </div>
     )

@@ -42,17 +42,33 @@ const jobData = [
     },
         {
         id: 3,
-        companyName: "One Point of Care",
-        jobTitle: "Research Analyst",
-        datesWorked: "2019-2020",
+        companyName: "Yogurt Vi",
+        jobTitle: "Assistant Manager",
+        datesWorked: "May 2018 - July 2019",
         jobDescriptions: [
             {
                 id: 1,
-                roll: "Utilized database systems such as Salesforce/Excel to input client information"
+                roll: "Controlled cash procedures such as fixing cash / credit errors and recording daily sales"
             },
             {
                 id: 2,
-                roll: "Navigated phone conversations to strike interest for new prospective clients"
+                roll: "Trained multicultural employees to increase efficiency of work"
+            }
+        ]
+    },
+    {
+        id: 4,
+        companyName: "Kent State University, Dining Services",
+        jobTitle: "Student Manager",
+        datesWorked: "May 2018 - July 2019",
+        jobDescriptions: [
+            {
+                id: 1,
+                roll: "Delegated tasks amongst employees to increase efficiency of work"
+            },
+            {
+                id: 2,
+                roll: "Recorded and executed inventory counts to fulfll order forms"
             }
         ]
     }
