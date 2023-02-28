@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/beaulazear/nadine.git/static/css/main.1f1382cc.css",
-    "main.js": "/beaulazear/nadine.git/static/js/main.1f83767d.js",
-    "static/js/787.43ec33d4.chunk.js": "/beaulazear/nadine.git/static/js/787.43ec33d4.chunk.js",
-    "index.html": "/beaulazear/nadine.git/index.html",
-    "main.1f1382cc.css.map": "/beaulazear/nadine.git/static/css/main.1f1382cc.css.map",
-    "main.1f83767d.js.map": "/beaulazear/nadine.git/static/js/main.1f83767d.js.map",
-    "787.43ec33d4.chunk.js.map": "/beaulazear/nadine.git/static/js/787.43ec33d4.chunk.js.map"
+    "main.css": "/nadine/static/css/main.1f1382cc.css",
+    "main.js": "/nadine/static/js/main.6cec326f.js",
+    "static/js/787.43ec33d4.chunk.js": "/nadine/static/js/787.43ec33d4.chunk.js",
+    "index.html": "/nadine/index.html",
+    "main.1f1382cc.css.map": "/nadine/static/css/main.1f1382cc.css.map",
+    "main.6cec326f.js.map": "/nadine/static/js/main.6cec326f.js.map",
+    "787.43ec33d4.chunk.js.map": "/nadine/static/js/787.43ec33d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f1382cc.css",
-    "static/js/main.1f83767d.js"
+    "static/js/main.6cec326f.js"
   ]
 }
