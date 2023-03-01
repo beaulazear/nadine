@@ -7,16 +7,16 @@ export default function NavLinks() {
         width: "fit-content",
         padding: "12px",
         margin: "0 6px 6px",
-        background: "blue",
+        background: "green",
         textDecoration: "none",
         color: "white",
       };
       
     return (
         <div className="navLinksComponentDiv">
-            <NavLink to="/" exact style={linkStyles} activeStyle={{background: "darkblue"}}>Home</NavLink>
-            <NavLink to="/testimonials" exact style={linkStyles} activeStyle={{background: "darkblue"}}>Testimonials</NavLink>
-            <NavLink to="/resume" exact style={linkStyles} activeStyle={{background: "darkblue"}}>Resume</NavLink>
+            <NavLink to="/" exact style={linkStyles} activeStyle={{background: "darkgreen"}}>Home</NavLink>
+            <NavLink to="/testimonials" exact style={linkStyles} activeStyle={{background: "darkgreen"}}>Testimonials</NavLink>
+            <NavLink to="/resume" exact style={linkStyles} activeStyle={{background: "darkgreen"}}>Resume</NavLink>
         </div>
     )
 }

@@ -24,22 +24,6 @@ const jobData = [
             }
         ]
     },
-    {
-        id: 2,
-        companyName: "One Point of Care",
-        jobTitle: "Research Analyst",
-        datesWorked: "2019-2020",
-        jobDescriptions: [
-            {
-                id: 1,
-                roll: "Utilized database systems such as Salesforce/Excel to input client information"
-            },
-            {
-                id: 2,
-                roll: "Navigated phone conversations to strike interest for new prospective clients"
-            }
-        ]
-    },
         {
         id: 3,
         companyName: "Yogurt Vi",

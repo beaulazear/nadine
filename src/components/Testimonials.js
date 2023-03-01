@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import NavLinks from "./NavLinks";
 import Slideshow from "./Slideshow";
 
 export default function Testimonials() {
