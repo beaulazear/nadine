@@ -11,7 +11,6 @@ export default function Resume() {
 
     return (
         <div className="resumeComponentDiv">
-            <NavLinks />
             <Header title={resumeTitle} />
             <h2>Education:</h2>
             <p>Bachelor of Arts in Cultural Anthropology,</p>

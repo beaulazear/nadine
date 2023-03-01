@@ -9,7 +9,6 @@ export default function Testimonials() {
 
     return (
         <div className="testimonialDiv">
-            <NavLinks />
             <Header title={testimonialsTitle}/>
             <Slideshow />
             <Footer />

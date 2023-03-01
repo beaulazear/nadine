@@ -9,19 +9,21 @@ import testi3 from "../images/testi3.jpg"
 export default function Slideshow() {
     const images = [testi, testi2, testi3]
     return (
-        <Slide>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[0]})` }}>
+        <div className="sliderDiv">
+            <Slide>
+                <div className="each-slide-effect">
+                    <div style={{ 'backgroundImage': `url(${images[0]})` }}>
+                    </div>
                 </div>
-            </div>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[1]})` }}>
+                <div className="each-slide-effect">
+                    <div style={{ 'backgroundImage': `url(${images[1]})` }}>
+                    </div>
                 </div>
-            </div>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${images[2]})` }}>
+                <div className="each-slide-effect">
+                    <div style={{ 'backgroundImage': `url(${images[2]})` }}>
+                    </div>
                 </div>
-            </div>
-        </Slide>
+            </Slide>
+        </div>
     )
 }

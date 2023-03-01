@@ -10,7 +10,6 @@ export default function Home() {
     const homeTitle="Nadine Hoopingarner"
     return (
         <div className="homeComponentDiv">
-            <NavLinks />
             <Header title={homeTitle} />
             <Aboutme />
             <Footer />
