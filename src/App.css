@@ -37,12 +37,19 @@ footer{
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 350px;
+  height: 400px;
+  width: 300px;
+  margin: auto;
 }
 
 .each-slide-effect span {
   padding: 20px;
   font-size: 20px;
   background: #efefef;
+  text-align: center;
+  justify-content: center;
+}
+.each-slide-effect {
+  justify-content: center;
   text-align: center;
 }
