@@ -10,7 +10,7 @@ export default function Intraconnect() {
     const intraconnectTitle = "Intraconnect"
 
     return (
-        <div className="testimonialDiv">
+        <div className="intraconnectDiv">
             <Header title={intraconnectTitle} />
             <ul className="offeringsUl">
                 {offeringsData.map((offer) => (

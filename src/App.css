@@ -9,6 +9,11 @@
 
 .homeComponentDiv {
   padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.aboutMeBio {
+  text-align: left;
 }
 
 .aboutMeImages {
@@ -18,10 +23,20 @@
   border-color: lightgreen;
 }
 
-.testimonialDiv {
+.intraconnectDiv {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+}
+
+.interconnectDiv {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.testimonials {
+  text-align: left;
 }
 
 .jobUl {
@@ -69,6 +84,7 @@ footer {
 
 body {
   padding-bottom: 50px;
+  background-image: url("./images/leaves.png");
 }
 
 .offeringDivs {
