@@ -11,12 +11,11 @@
   padding-left: 10px;
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
+.aboutMeImages {
+  background-color: lightgreen;
+  border: 2px;
+  border-style: groove;
+  border-color: lightgreen;
 }
 
 .testimonialDiv {
@@ -44,7 +43,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: aliceblue;
+  background-color: lightgreen;
 }
 
 .each-slide-effect>div {
@@ -74,14 +73,20 @@ body {
 
 .offeringDivs {
   text-align: left;
+  border: 2px;
+  border-style: groove;
+  border-color: lightgreen;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
 }
 
 .offeringsUl {
   width: 300px;
   margin: auto;
   padding: 0;
-  line-height: 20px;
+  line-height: 22px;
   font-size: larger;
 }
 

@@ -5,7 +5,7 @@ export default function NavLinks() {
     const linkStyles = {
         display: "inline-block",
         width: "fit-content",
-        padding: "12px",
+        padding: "6px",
         margin: "0 6px 6px",
         background: "green",
         textDecoration: "none",
