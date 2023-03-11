@@ -2,7 +2,8 @@ import './App.css';
 import Home from './components/Home';
 import Resume from './components/Resume';
 import { Route, Switch } from 'react-router';
-import Testimonials from './components/Testimonials';
+import Intraconnect from './components/Intraconnect';
+import Interconnect from './components/Interconnect';
 import NavLinks from './components/NavLinks';
 
 function App() {
@@ -13,8 +14,11 @@ function App() {
         <Route path="/resume">
           <Resume />
         </Route>
-        <Route path="/testimonials">
-          <Testimonials />
+        <Route path="/Intraconnect">
+          <Intraconnect />
+        </Route>
+        <Route path="/Interconnect">
+          <Interconnect />
         </Route>
         <Route path="/">
           <Home />

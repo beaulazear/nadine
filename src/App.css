@@ -11,6 +11,14 @@
   padding-left: 10px;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
 .testimonialDiv {
   padding-left: 10px;
   padding-right: 10px;
@@ -62,4 +70,21 @@ footer {
 
 body {
   padding-bottom: 50px;
+}
+
+.offeringDivs {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.offeringsUl {
+  width: 300px;
+  margin: auto;
+  padding: 0;
+  line-height: 20px;
+  font-size: larger;
+}
+
+.offeringDescriptionsLis {
+  margin: auto;
 }

@@ -25,34 +25,6 @@ const leadershipData = [
         ]
     },
     {
-        id: 2,
-        companyName: "Conservancy for Cuyahoga Valley National Park",
-        jobTitle: "Cultural Arts Intern",
-        datesWorked: "May 2016 - August 2016",
-        jobDescriptions: [
-            {
-                id: 1,
-                roll: "Assisted Director of Programs with event planning for all Cultural Arts and Conservancy concerts as needed"
-            },
-            {
-                id: 2,
-                roll: "Served as assistant to Director of Marketing by promoting Conservancy events and concerts on Eventbrite"
-            },
-            {
-                id: 3,
-                roll: "Supervised volunteers by assigning job duties, emailing schedules and updates for all Cultural Arts events"
-            },
-            {
-                id: 4,
-                roll: "Created and maintained records on potential artists, bands, and speakers to review for future bookings"
-            },
-            {
-                id: 5,
-                roll: "Processed inventory before and after each Cultural Arts concert and placed orders"
-            }
-        ]
-    },
-    {
         id: 3,
         companyName: "Kent State University, Resident Services",
         jobTitle: "Resident Assistant",
@@ -73,6 +45,26 @@ const leadershipData = [
             {
                 id: 4,
                 roll: "Budgeted money and time necessary to host programs/events for residents"
+            }
+        ]
+    },
+    {
+        id: 4,
+        companyName: "Hall Council, Kent State University",
+        jobTitle: "Director of Publicity",
+        datesWorked: "August 2013 - May 2014",
+        jobDescriptions: [
+            {
+                id: 1,
+                roll: "Collaborated with teammates to build marketing strategies for residence hall events"
+            },
+            {
+                id: 2,
+                roll: "Proofread various forms of advertisements for detail, accuracy, and authenticity"
+            },
+            {
+                id: 3,
+                roll: "Executed campaign tactics in a effective and timely manner to ensure resident awareness and event attendance"
             }
         ]
     }

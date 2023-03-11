@@ -4,7 +4,7 @@ const jobData = [
         id: 1,
         companyName: "Pocket Blonde Fitness",
         jobTitle: "Virtual Assistant",
-        datesWorked: "2021 - Present",
+        datesWorked: "October 2021 - Present",
         jobDescriptions: [
             {
                 id: 1,
@@ -12,7 +12,7 @@ const jobData = [
             },
             {
                 id: 2,
-                roll: "Strategized social media calendar to plan monthly content for Instagram and Facebook on business account"
+                roll: "Developed social media campaigns to plan monthly content for Instagram and Facebook on business account"
             },
             {
                 id: 3,
@@ -20,11 +20,39 @@ const jobData = [
             },
             {
                 id: 4,
-                roll: "Onboarded clients into systems including scheduling check in days, inputting data, creating documents"
+                roll: "Executed successful organic growth strategies leading to client conversions with zero paid ads"
             }
         ]
     },
-        {
+    {
+        id: 2,
+        companyName: "Conservancy for Cuyahoga Valley National Park",
+        jobTitle: "Cultural Arts Intern",
+        datesWorked: "May 2016 - August 2016",
+        jobDescriptions: [
+            {
+                id: 1,
+                roll: "Assisted Director of Programs with event planning for all Cultural Arts and Conservancy concerts as needed"
+            },
+            {
+                id: 2,
+                roll: "Served as assistant to Director of Marketing by promoting Conservancy events and concerts on Eventbrite"
+            },
+            {
+                id: 3,
+                roll: "Supervised volunteers by assigning job duties, emailing schedules and updates for all Cultural Arts events"
+            },
+            {
+                id: 4,
+                roll: "Created and maintained records on potential artists, bands, and speakers to review for future bookings"
+            },
+            {
+                id: 5,
+                roll: "Processed inventory before and after each Cultural Arts concert and placed orders"
+            }
+        ]
+    },
+    {
         id: 3,
         companyName: "Yogurt Vi",
         jobTitle: "Assistant Manager",

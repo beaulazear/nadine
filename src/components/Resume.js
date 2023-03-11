@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import NavLinks from "./NavLinks";
 import { jobData } from "../data/jobs";
 import { leadershipData } from "../data/leadership";
 import JobCard from "./JobCard";
