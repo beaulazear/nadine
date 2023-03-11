@@ -1,6 +1,8 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
+import Offering from "./Offering";
+import { marketingOfferingsData } from "../data/marketingOfferings";
 
 export default function Interconnect() {
 
@@ -10,6 +12,11 @@ export default function Interconnect() {
     return (
         <div className="interconnectDiv">
             <Header title={interconnectTitle}/>
+            <ul className="offeringsUl">
+                {marketingOfferingsData.map((offer) => (
+                    <Offering key={offer.id} data={offer} />
+                ))}
+            </ul>
             <Header title={testimonialsTitle}/>
             <div className="testimonials">
             <h3>Lacey Pettibone, <u>Pocket Blonde Fitness LLC</u></h3>

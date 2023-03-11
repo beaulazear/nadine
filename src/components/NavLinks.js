@@ -5,7 +5,7 @@ export default function NavLinks() {
     const linkStyles = {
         display: "inline-block",
         width: "fit-content",
-        padding: "6px",
+        padding: "8px",
         margin: "0 6px 6px",
         background: "green",
         textDecoration: "none",
@@ -15,8 +15,8 @@ export default function NavLinks() {
     return (
         <div className="navLinksComponentDiv">
             <NavLink to="/" exact style={linkStyles} activeStyle={{background: "darkgreen"}}>Home</NavLink>
-            <NavLink to="/Intraconnect" exact style={linkStyles} activeStyle={{background: "darkgreen"}}>Intraconnect</NavLink>
             <NavLink to="/Interconnect" exact style={linkStyles} activeStyle={{background: "darkgreen"}}>Interconnect</NavLink>
+            <NavLink to="/Intraconnect" exact style={linkStyles} activeStyle={{background: "darkgreen"}}>Intraconnect</NavLink>
             <NavLink to="/resume" exact style={linkStyles} activeStyle={{background: "darkgreen"}}>Resume</NavLink>
         </div>
     )
