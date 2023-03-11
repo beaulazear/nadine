@@ -1,3 +1,6 @@
+# Free Content Used
+Pretty leaves subtle background image pulled from website behance.net/antitomi, graphic designer name is Tomislava Babić
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
