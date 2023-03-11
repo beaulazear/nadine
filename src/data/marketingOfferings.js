@@ -12,7 +12,7 @@ const marketingOfferingsData = [
     },
     {
         id: 2,
-        name: "Organic marketing support",
+        name: "ORGANIC MARKETING SUPPORT",
         time: "3 months",
         descriptions: [
             { id: 1, info: "3 months whatsapp support" },
@@ -23,7 +23,7 @@ const marketingOfferingsData = [
     },
     {
         id: 2,
-        name: "Human design marketing support",
+        name: "HUMAN DESIGN MARKETING SUPPORT",
         time: "6 months",
         descriptions: [
             { id: 1, info: "6 months whatsapp support" },
