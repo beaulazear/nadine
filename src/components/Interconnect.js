@@ -13,6 +13,7 @@ export default function Interconnect() {
         <div className="interconnectDiv">
             <Header title={interconnectTitle} />
             <ul className="offeringsUl">
+            <p className="interconnectP">It is my passion to bridge the space between marketing and your audience. To build campaigns that focus on organic growth, feel more authentic to your values, and release the pressure off you, by me creating/setting up your accounts, making content, scheduling, and engaging with your audience.</p>
                 {marketingOfferingsData.map((offer) => (
                     <Offering key={offer.id} data={offer} />
                 ))}

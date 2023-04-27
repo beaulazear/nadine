@@ -87,7 +87,7 @@ footer {
 
 body {
   padding-bottom: 40px;
-  /* background-image: url("./images/leaves.png"); */
+  background-image: url("./images/leaves.png");
 }
 
 .offeringDivs {
@@ -102,12 +102,27 @@ body {
   background-color: rgba(255, 255, 255);
 }
 
+
 .offeringsUl {
   width: 300px;
   margin: auto;
   padding: 0;
   line-height: 22px;
   font-size: larger;
+}
+
+.interconnectP {
+  text-align: center;
+  text-align: left;
+  border: 2px;
+  border-style: groove;
+  border-color: lightgreen;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255);
 }
 
 .offeringDescriptionsLis {

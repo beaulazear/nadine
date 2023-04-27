@@ -5,11 +5,13 @@ export default function NavLinks() {
     const linkStyles = {
         display: "inline-block",
         width: "fit-content",
-        padding: "8px",
-        margin: "0 6px 6px",
+        padding: "10px",
+        margin: "0 0px 6px",
         background: "green",
         textDecoration: "none",
         color: "white",
+        lineHeight: 1.5,
+        fontSize: "18px",
       };
       
     return (
