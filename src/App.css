@@ -86,7 +86,7 @@ footer {
 }
 
 body {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   /* background-image: url("./images/leaves.png"); */
 }
 
@@ -112,4 +112,8 @@ body {
 
 .offeringDescriptionsLis {
   margin: auto;
+}
+
+.navLinksComponentDiv {
+  text-align: center;
 }
