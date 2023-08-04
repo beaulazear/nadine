@@ -1,44 +1,30 @@
-.headerComponentDiv {
-  font-family: 'Courier New', Courier, monospace;
+.navigation {
+  display: flex;
+  width: 100%;
+  background-color: #eaf7eb; /* Green background color */
+}
+
+.navButtons {
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #49a078; /* Dark green button color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navButtons:hover {
+  background-color: #6bc38e; /* Light green button color on hover */
 }
 
 .resumeComponentDiv {
   text-align: left;
   padding-left: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.homeComponentDiv {
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-}
-.aboutMeBio {
-  text-align: left;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.aboutMeImages {
-  background-color: lightgreen;
-  border: 2px;
-  border-style: groove;
-  border-color: lightgreen;
-}
-
-.intraconnectDiv {
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-}
-
-.interconnectDiv {
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-}
-
-.testimonials {
-  text-align: left;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -48,20 +34,6 @@
 
 .jobDescriptionLis {
   padding-bottom: 5px;
-}
-
-footer {
-  color: black;
-  font-size: 16px;
-  font-style: bold;
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: lightgreen;
 }
 
 .each-slide-effect>div {
@@ -86,49 +58,6 @@ footer {
 }
 
 body {
-  padding-bottom: 40px;
-  background-image: url("./images/leaves.png");
-}
-
-.offeringDivs {
-  text-align: left;
-  border: 2px;
-  border-style: groove;
-  border-color: lightgreen;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 10px;
-  background-color: rgba(255, 255, 255);
-}
-
-
-.offeringsUl {
-  width: 300px;
-  margin: auto;
-  padding: 0;
-  line-height: 22px;
-  font-size: larger;
-}
-
-.interconnectP {
-  text-align: center;
-  text-align: left;
-  border: 2px;
-  border-style: groove;
-  border-color: lightgreen;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  margin-bottom: 10px;
-  background-color: rgba(255, 255, 255);
-}
-
-.offeringDescriptionsLis {
-  margin: auto;
-}
-
-.navLinksComponentDiv {
-  text-align: center;
+  /* padding-bottom: 10px; */
+  /* background-image: url("./images/leaves.png"); */
 }
