@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nadine/static/css/main.7ca2aa63.css",
-    "main.js": "/nadine/static/js/main.b0ba15a5.js",
+    "main.css": "/nadine/static/css/main.3d75cc8f.css",
+    "main.js": "/nadine/static/js/main.6a3a481b.js",
     "static/js/787.43ec33d4.chunk.js": "/nadine/static/js/787.43ec33d4.chunk.js",
     "static/media/nadine.jpg": "/nadine/static/media/nadine.c7ceefb750f84da365aa.jpg",
     "static/media/testi.jpg": "/nadine/static/media/testi.75927e633ab50142c8f1.jpg",
@@ -10,12 +10,12 @@
     "static/media/testi4.jpg": "/nadine/static/media/testi4.f7f76847dde72bf9188d.jpg",
     "static/media/testi2.jpg": "/nadine/static/media/testi2.b86cd367197dd4913fd1.jpg",
     "index.html": "/nadine/index.html",
-    "main.7ca2aa63.css.map": "/nadine/static/css/main.7ca2aa63.css.map",
-    "main.b0ba15a5.js.map": "/nadine/static/js/main.b0ba15a5.js.map",
+    "main.3d75cc8f.css.map": "/nadine/static/css/main.3d75cc8f.css.map",
+    "main.6a3a481b.js.map": "/nadine/static/js/main.6a3a481b.js.map",
     "787.43ec33d4.chunk.js.map": "/nadine/static/js/787.43ec33d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ca2aa63.css",
-    "static/js/main.b0ba15a5.js"
+    "static/css/main.3d75cc8f.css",
+    "static/js/main.6a3a481b.js"
   ]
 }
