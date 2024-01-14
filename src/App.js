@@ -1,6 +1,5 @@
 import './App.css';
 import Home from './components/Home';
-import Resume from './components/Resume';
 import { Route, Switch } from 'react-router';
 import Intraconnect from './components/Intraconnect';
 import Interconnect from './components/Interconnect';
@@ -11,9 +10,6 @@ function App() {
     <div className="App">
       <NavLinks />
       <Switch>
-        <Route path="/resume">
-          <Resume />
-        </Route>
         <Route path="/Intraconnect">
           <Intraconnect />
         </Route>
