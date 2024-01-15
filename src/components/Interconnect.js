@@ -9,10 +9,9 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Use width instead of max-width to allow the container to expand */
   max-width: 1200px; /* Set a max-width if you still want to limit the width */
   margin: 0 auto;
+  padding-top: 10px;
 `;
 
 const StyledHeaderContainer = styled(Container)`

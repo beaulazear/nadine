@@ -10,9 +10,7 @@ const StyledIntraconnectContainer = styled(Container)`
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding-top: 10px;
-  max-width: 1200px;
   margin: 0 auto;
 `;
 

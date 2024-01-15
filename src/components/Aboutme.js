@@ -8,6 +8,7 @@ const StyledAboutmeContainer = styled(Container)`
   flex-direction: column;
   align-items: center;
   max-width: 700px;
+  padding-top: 10px;
 `;
 
 const StyledHeaderContainer = styled(Container)`
