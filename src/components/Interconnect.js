@@ -9,7 +9,6 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  max-width: 1200px; /* Set a max-width if you still want to limit the width */
   padding-top: 10px;
 `;
 
@@ -19,6 +18,7 @@ const StyledHeaderContainer = styled(Container)`
   background-color: #f3f3f3;
   border-radius: 10px;
   max-width: 450px; /* Adjusted max-width */
+  margin: 0 auto; /* Centered in the screen */
   margin-bottom: 10px;
 `;
 
@@ -45,6 +45,7 @@ const StyledAboutMeBio = styled.div`
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
+  margin: 0 auto;
 `;
 
 const StyledOfferingsContainer = styled(Container)`
@@ -89,45 +90,43 @@ const StyledListItem = styled.li`
 `;
 
 export default function Interconnect() {
-    return (
-        <StyledWrapper>
-            <StyledHeaderContainer>
-                <StyledHeader>Interconnect</StyledHeader>
-                <StyledSubHeader>Your Bridge to Authentic Marketing</StyledSubHeader>
-            </StyledHeaderContainer>
+  return (
+    <StyledWrapper>
+      <StyledHeaderContainer>
+        <StyledHeader>Interconnect</StyledHeader>
+        <StyledSubHeader>Your Bridge to Authentic Marketing</StyledSubHeader>
+      </StyledHeaderContainer>
 
-            <StyledAboutMeBioContainer>
-                <StyledAboutMeBio>
-                    It is my passion to bridge the space between marketing and your audience. To build campaigns that focus on organic growth, feel more authentic to your values, and release the pressure off you, by me creating/setting up your accounts, making content, scheduling, and engaging with your audience.
-                </StyledAboutMeBio>
-            </StyledAboutMeBioContainer>
+      <StyledAboutMeBioContainer>
+        <StyledAboutMeBio>
+          It is my passion to bridge the space between marketing and your audience. To build campaigns that focus on organic growth, feel more authentic to your values, and release the pressure off you, by me creating/setting up your accounts, making content, scheduling, and engaging with your audience.
+        </StyledAboutMeBio>
+      </StyledAboutMeBioContainer>
 
-            <StyledOfferingsContainer>
-                {marketingOfferingsData.map((offer) => (
-                    <StyledOfferingCol key={offer.id} xs={12} md={6} lg={4}>
-                        <Offering data={offer} />
-                    </StyledOfferingCol>
-                ))}
-            </StyledOfferingsContainer>
+      <StyledOfferingsContainer>
+        {marketingOfferingsData.map((offer) => (
+          <StyledOfferingCol key={offer.id} xs={12} md={6} lg={4}>
+            <Offering data={offer} />
+          </StyledOfferingCol>
+        ))}
+      </StyledOfferingsContainer>
 
-            <StyledHeaderContainer>
-                <StyledHeader>References</StyledHeader>
-            </StyledHeaderContainer>
+      <StyledHeaderContainer>
+        <StyledHeader>References</StyledHeader>
+      </StyledHeaderContainer>
 
-            <StyledTestimonialsContainer>
-                <StyledTestimonial>
-                    <StyledTestimonialHeader>Lacey Pettibone, <u>Pocket Blonde Fitness LLC</u></StyledTestimonialHeader>
-                    <StyledTestimonialContent>
-                        <StyledListItem>Managing our content calendar including scheduling weekly content to fit the aesthetics of our page and looking through old content to find opportunities to repurpose.</StyledListItem>
-                        <StyledListItem>Created and manages our content carousel including post links content buckets, and repurposing</StyledListItem>
-                        <StyledListItem>Researches our competitors to come up with new content ideas</StyledListItem>
-                        <StyledListItem>Manages our Facebook page including welcoming new members, finding leads, and creating some of the content</StyledListItem>
-                        <StyledListItem>Reads through all client check-in forms to create story wins and testimonials via Canva</StyledListItem>
-                        <StyledListItem>Creates story polls and collects the data to find potential leads</StyledListItem>
-                        <StyledListItem>Nadine is skilled in Canva and has taken it upon herself to create Canva posts and write copy for our Instagram page on a weekly basis.</StyledListItem>
-                    </StyledTestimonialContent>
-                </StyledTestimonial>
-            </StyledTestimonialsContainer>
-        </StyledWrapper>
-    );
+      <StyledTestimonialsContainer>
+        <StyledTestimonial>
+          <StyledTestimonialHeader>Lacey Pettibone, <u>Pocket Blonde Fitness LLC</u></StyledTestimonialHeader>
+          <StyledTestimonialContent>
+            <StyledListItem>Expertly manages content calendar, ensuring weekly posts align with page aesthetics.</StyledListItem>
+            <StyledListItem>Creates and curates captivating content for our carousel, post links, and content buckets.</StyledListItem>
+            <StyledListItem>Strategically researches competitors to generate innovative content ideas.</StyledListItem>
+            <StyledListItem>Skilled in Canva, adept at crafting engaging posts and compelling copy for Instagram.</StyledListItem>
+          </StyledTestimonialContent>
+
+        </StyledTestimonial>
+      </StyledTestimonialsContainer>
+    </StyledWrapper>
+  );
 }

@@ -6,7 +6,7 @@ import NavLinks from './components/NavLinks';
 
 function App() {
   return (
-    <div style={{paddingLeft: '0', paddingRight: '0'}}>
+    <div>
       <NavLinks />
       <Switch>
         <Route path="/Intraconnect">

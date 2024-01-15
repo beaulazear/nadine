@@ -45,6 +45,7 @@ const StyledAboutMeBio = styled.div`
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
+  margin: 0 auto;
 `;
 
 const StyledOfferingsRow = styled(Row)`
