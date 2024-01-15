@@ -9,8 +9,6 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 20px;
-  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%; /* Use width instead of max-width to allow the container to expand */
   max-width: 1200px; /* Set a max-width if you still want to limit the width */
@@ -24,6 +22,7 @@ const StyledHeaderContainer = styled(Container)`
   border-radius: 10px;
   max-width: 450px; /* Adjusted max-width */
   margin: 0 auto; /* Centered in the screen */
+  margin-bottom: 10px;
 `;
 
 const StyledHeader = styled.h1`
@@ -40,6 +39,7 @@ const StyledSubHeader = styled.h2`
 
 const StyledAboutMeBioContainer = styled(Container)`
   text-align: center;
+  margin-bottom:10px
 `;
 
 const StyledAboutMeBio = styled.div`

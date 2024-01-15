@@ -10,9 +10,8 @@ const StyledIntraconnectContainer = styled(Container)`
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 20px;
-  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
   max-width: 1200px;
   margin: 0 auto;
 `;
@@ -24,6 +23,7 @@ const StyledHeaderContainer = styled(Container)`
   border-radius: 10px;
   max-width: 450px;
   margin: 0 auto;
+  margin-bottom: 10px;
 `;
 
 const StyledHeader = styled.h1`
@@ -40,6 +40,7 @@ const StyledSubHeader = styled.h2`
 
 const StyledAboutMeBioContainer = styled(Container)`
   text-align: center;
+  margin-bottom: 10px;
 `;
 
 const StyledAboutMeBio = styled.div`
