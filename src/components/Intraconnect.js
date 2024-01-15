@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import styled from 'styled-components';
 import { Container, Row, Col } from 'react-bootstrap';
-import Slideshow from "./Slideshow";
-import Offering from "./Offering";
-import { offeringsData } from "../data/offerings";
+import Slideshow from './Slideshow';
+import Offering from './Offering';
+import { offeringsData } from '../data/offerings';
 
 const StyledIntraconnectContainer = styled(Container)`
   display: flex;
@@ -22,8 +22,8 @@ const StyledHeaderContainer = styled(Container)`
   padding: 20px;
   background-color: #f3f3f3;
   border-radius: 10px;
-  max-width: 450px; /* Adjusted max-width */
-  margin: 0 auto; /* Centered in the screen */
+  max-width: 450px;
+  margin: 0 auto;
 `;
 
 const StyledHeader = styled.h1`
@@ -53,7 +53,7 @@ const StyledAboutMeBio = styled.div`
 
 const StyledOfferingsRow = styled(Row)`
   gap: 20px;
-  justify-content: center; /* Center the offerings in their parent container */
+  justify-content: center;
 `;
 
 const StyledOfferingCol = styled(Col)`
@@ -61,32 +61,34 @@ const StyledOfferingCol = styled(Col)`
   margin-bottom: 20px;
 `;
 
-export default function Intraconnect() {
-    return (
-        <StyledIntraconnectContainer>
-            <StyledHeaderContainer>
-                <StyledHeader>Intraconnect</StyledHeader>
-                <StyledSubHeader>Discover the Inner Connections</StyledSubHeader>
-            </StyledHeaderContainer>
+const Intraconnect = () => {
+  return (
+    <StyledIntraconnectContainer>
+      <StyledHeaderContainer>
+        <StyledHeader>Intraconnect</StyledHeader>
+        <StyledSubHeader>Discover the Inner Connections</StyledSubHeader>
+      </StyledHeaderContainer>
 
-            <StyledAboutMeBioContainer>
-                <StyledAboutMeBio>
-                    Did I mention I am a jack of all trades? I am a palmist, in addition to a Human Design reader. The inner connections we have with ourselves, and how it resonates out into reality fascinates me. I have given many palm readings which show the roadmap of people's lives. I have come to understand the misrepresentation of its “future-telling” origins. While it can highlight potential unknowns…palm readings reveal our character, relationships, past hardships, and so much more. In fact, as we evolve in our lives the lines on our palm can change! This reinforces the notion that you are in fact in control of your destiny.
-                </StyledAboutMeBio>
-            </StyledAboutMeBioContainer>
+      <StyledAboutMeBioContainer>
+        <StyledAboutMeBio>
+          Did I mention I am a jack of all trades? I am a palmist, in addition to a Human Design reader. The inner connections we have with ourselves, and how it resonates out into reality fascinates me. I have given many palm readings which show the roadmap of people's lives. I have come to understand the misrepresentation of its “future-telling” origins. While it can highlight potential unknowns…palm readings reveal our character, relationships, past hardships, and so much more. In fact, as we evolve in our lives the lines on our palm can change! This reinforces the notion that you are in fact in control of your destiny.
+        </StyledAboutMeBio>
+      </StyledAboutMeBioContainer>
 
-            <StyledOfferingsRow>
-                {offeringsData.map((offer) => (
-                    <StyledOfferingCol key={offer.id} xs={12} md={6} lg={4}>
-                        <Offering data={offer} />
-                    </StyledOfferingCol>
-                ))}
-            </StyledOfferingsRow>
+      <StyledOfferingsRow>
+        {offeringsData.map((offer) => (
+          <StyledOfferingCol key={offer.id} xs={12} md={6} lg={4}>
+            <Offering data={offer} />
+          </StyledOfferingCol>
+        ))}
+      </StyledOfferingsRow>
 
-            <StyledHeaderContainer>
-                <StyledHeader>Testimonials</StyledHeader>
-            </StyledHeaderContainer>
-            <Slideshow />
-        </StyledIntraconnectContainer>
-    );
-}
+      <StyledHeaderContainer>
+        <StyledHeader>Testimonials</StyledHeader>
+      </StyledHeaderContainer>
+      <Slideshow />
+    </StyledIntraconnectContainer>
+  );
+};
+
+export default Intraconnect;

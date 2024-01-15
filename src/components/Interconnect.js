@@ -12,7 +12,8 @@ const StyledWrapper = styled.div`
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 1200px;
+  width: 100%; /* Use width instead of max-width to allow the container to expand */
+  max-width: 1200px; /* Set a max-width if you still want to limit the width */
   margin: 0 auto;
 `;
 
