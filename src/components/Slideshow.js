@@ -1,39 +1,39 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css';
+import styled from 'styled-components';
 import testi from "../images/testi.jpg"
 import testi2 from "../images/testi2.jpg"
 import testi3 from "../images/testi3.jpg"
 import testi4 from "../images/testi4.jpg"
 import testi5 from "../images/testi5.jpg"
 
+const SlideshowWrapper = styled.div`
+  width: 50%;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  margin-bottom: 10px;
+`;
+
+const SlideItem = styled.div`
+  height: 600px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+`;
 
 export default function Slideshow() {
     const images = [testi, testi2, testi3, testi4, testi5]
+
     return (
-        <div className="sliderDiv">
-            <Slide>
-                <div className="each-slide-effect">
-                    <div style={{ 'backgroundImage': `url(${images[0]})` }}>
-                    </div>
-                </div>
-                <div className="each-slide-effect">
-                    <div style={{ 'backgroundImage': `url(${images[1]})` }}>
-                    </div>
-                </div>
-                <div className="each-slide-effect">
-                    <div style={{ 'backgroundImage': `url(${images[2]})` }}>
-                    </div>
-                </div>
-                <div className="each-slide-effect">
-                    <div style={{ 'backgroundImage': `url(${images[3]})` }}>
-                    </div>
-                </div>
-                <div className="each-slide-effect">
-                    <div style={{ 'backgroundImage': `url(${images[4]})` }}>
-                    </div>
-                </div>
+        <SlideshowWrapper>
+            <Slide duration={5000}>
+                {images.map((image, index) => (
+                    <SlideItem key={index} style={{ backgroundImage: `url(${image})` }} />
+                ))}
             </Slide>
-        </div>
+        </SlideshowWrapper>
     )
 }

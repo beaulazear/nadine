@@ -8,7 +8,7 @@ const StyledOfferingDiv = styled.div`
   padding: 20px;
   margin-bottom: 20px;
   width: 400px; /* Set a fixed width for all offerings */
-  height: 100%; /* Set a fixed height for all offerings */
+  height: 250px;
   margin: 0 auto;
 `;
 

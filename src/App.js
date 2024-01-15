@@ -1,4 +1,3 @@
-import './App.css';
 import Home from './components/Home';
 import { Route, Switch } from 'react-router';
 import Intraconnect from './components/Intraconnect';
