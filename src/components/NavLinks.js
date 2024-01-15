@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useHistory } from 'react-router-dom';
 import styled from 'styled-components';
 
 const headerStyle = {
@@ -28,22 +28,30 @@ const StyledNavLink = styled(NavLink)`
 `;
 
 function NavLinks() {
+    const history = useHistory();
+    const [expanded, setExpanded] = useState(false);
+
+    const handleNavLinkClick = (path) => {
+        history.push(path);
+        setExpanded(false);
+    };
+
     return (
-        <Navbar expand="lg" className="bg-body">
+        <Navbar expand="lg" className="bg-body" expanded={expanded}>
             <Container fluid>
                 <Navbar.Brand style={headerStyle} as={NavLink} to="/">
                     Nadine Hoopingarner
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <StyledNavLink to="/" exact>
+                        <StyledNavLink to="/" exact onClick={() => handleNavLinkClick("/")}>
                             About Me
                         </StyledNavLink>
-                        <StyledNavLink to="/Interconnect">
+                        <StyledNavLink to="/Interconnect" onClick={() => handleNavLinkClick("/Interconnect")}>
                             Interconnect
                         </StyledNavLink>
-                        <StyledNavLink to="/Intraconnect">
+                        <StyledNavLink to="/Intraconnect" onClick={() => handleNavLinkClick("/Intraconnect")}>
                             Intraconnect
                         </StyledNavLink>
                     </Nav>
