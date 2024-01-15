@@ -113,6 +113,10 @@ export default function Interconnect() {
                 ))}
             </StyledOfferingsContainer>
 
+            <StyledHeaderContainer>
+                <StyledHeader>References</StyledHeader>
+            </StyledHeaderContainer>
+
             <StyledTestimonialsContainer>
                 <StyledTestimonial>
                     <StyledTestimonialHeader>Lacey Pettibone, <u>Pocket Blonde Fitness LLC</u></StyledTestimonialHeader>
