@@ -10,7 +10,6 @@ const StyledWrapper = styled.div`
   align-items: center;
   gap: 20px;
   max-width: 1200px; /* Set a max-width if you still want to limit the width */
-  margin: 0 auto;
   padding-top: 10px;
 `;
 
@@ -20,7 +19,6 @@ const StyledHeaderContainer = styled(Container)`
   background-color: #f3f3f3;
   border-radius: 10px;
   max-width: 450px; /* Adjusted max-width */
-  margin: 0 auto; /* Centered in the screen */
   margin-bottom: 10px;
 `;
 
@@ -47,7 +45,6 @@ const StyledAboutMeBio = styled.div`
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
-  margin: 0 auto;
 `;
 
 const StyledOfferingsContainer = styled(Container)`

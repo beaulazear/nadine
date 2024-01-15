@@ -9,9 +9,7 @@ import testi4 from "../images/testi4.jpg"
 import testi5 from "../images/testi5.jpg"
 
 const SlideshowWrapper = styled.div`
-  width: 50%;
-  max-width: 800px; /* Adjust the maximum width as needed */
-  margin: 0 auto;
+  max-width: 400px; /* Adjust the maximum width as needed */
   margin-bottom: 10px;
 `;
 

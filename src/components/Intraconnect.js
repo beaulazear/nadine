@@ -11,7 +11,6 @@ const StyledIntraconnectContainer = styled(Container)`
   align-items: center;
   gap: 20px;
   padding-top: 10px;
-  margin: 0 auto;
 `;
 
 const StyledHeaderContainer = styled(Container)`
@@ -20,7 +19,6 @@ const StyledHeaderContainer = styled(Container)`
   background-color: #f3f3f3;
   border-radius: 10px;
   max-width: 450px;
-  margin: 0 auto;
   margin-bottom: 10px;
 `;
 
@@ -47,7 +45,6 @@ const StyledAboutMeBio = styled.div`
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
-  margin: 0 auto;
 `;
 
 const StyledOfferingsRow = styled(Row)`
