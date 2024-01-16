@@ -53,6 +53,7 @@ const StyledOfferingsContainer = styled(Container)`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 2000px;
 `;
 
 const StyledOfferingCol = styled(Col)`

@@ -53,6 +53,7 @@ const StyledAboutMeBio = styled.div`
 const StyledOfferingsRow = styled(Row)`
   gap: 20px;
   justify-content: center;
+  max-width: 2000px;
 `;
 
 const StyledOfferingCol = styled(Col)`
