@@ -17,7 +17,7 @@ const StyledHeaderContainer = styled(Container)`
   padding: 20px;
   background-color: #f3f3f3;
   border-radius: 10px;
-  max-width: 450px;
+  max-width: 400px;
   margin-bottom: 10px;
   margin-right: 5px;
   margin-left: 5px;
