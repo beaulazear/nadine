@@ -16,8 +16,10 @@ const StyledHeaderContainer = styled(Container)`
   padding: 20px;
   background-color: #f3f3f3;
   border-radius: 10px;
-  max-width: 450px; /* Adjusted max-width */
-  margin: 20px auto 0; /* Added margin-top to create space */
+  max-width: 450px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 `;
 
 const StyledHeader = styled.h1`
