@@ -54,6 +54,9 @@ function NavLinks() {
                         <StyledNavLink to="/Intraconnect" onClick={() => handleNavLinkClick("/Intraconnect")}>
                             Intraconnect
                         </StyledNavLink>
+                        <StyledNavLink to="/ContactUs" onClick={() => handleNavLinkClick("/ContactUs")}>
+                            Contact
+                        </StyledNavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

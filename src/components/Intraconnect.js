@@ -37,7 +37,7 @@ const StyledSubHeader = styled.h2`
 `;
 
 const StyledAboutMeBioContainer = styled(Container)`
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
 `;
 
