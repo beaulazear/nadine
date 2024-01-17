@@ -41,6 +41,11 @@ const StyledAboutMeImages = styled(Image)`
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   max-width: 400px; /* Set a max width for the image */
   margin: 20px 0; /* Added margin-top and margin-bottom for space */
+
+  @media (max-width: 550px) {
+    max-width: 250px; /* Set a slightly larger max width for the image when the width is 450px or below */
+    border-radius: 50%; /* Make it circular */
+  }
 `;
 
 const StyledAboutMeBio = styled.div`
