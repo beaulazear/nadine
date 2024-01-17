@@ -8,7 +8,7 @@ import styled from 'styled-components';
 
 const headerStyle = {
     fontFamily: 'Times, Times New Roman, serif',
-    fontSize: '22px',
+    fontSize: '28px',
 }
 
 const StyledNavLink = styled(NavLink)`
