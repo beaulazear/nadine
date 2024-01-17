@@ -10,41 +10,42 @@ const StyledIntraconnectContainer = styled(Container)`
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
 `;
 
 const StyledHeaderContainer = styled(Container)`
   text-align: center;
   padding: 20px;
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
   border-radius: 10px;
-  max-width: 400px;
-  margin-bottom: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
 
 const StyledHeader = styled.h1`
   font-family: 'Arial, sans-serif';
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 10px;
+  color: #333;
 `;
 
 const StyledSubHeader = styled.h2`
   font-family: 'Arial, sans-serif';
-  font-size: 24px;
+  font-size: 18px;
   color: #3498db;
+  margin-bottom: 20px;
 `;
 
 const StyledAboutMeBioContainer = styled(Container)`
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 const StyledAboutMeBio = styled.div`
   font-family: 'Arial, sans-serif';
   color: #333;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
@@ -57,7 +58,8 @@ const StyledOfferingsRow = styled(Row)`
 `;
 
 const StyledOfferingCol = styled(Col)`
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   margin-bottom: 20px;
 `;
 

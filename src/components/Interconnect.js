@@ -4,46 +4,53 @@ import styled from 'styled-components';
 import Offering from "./Offering";
 import { marketingOfferingsData } from "../data/marketingOfferings";
 
-const StyledWrapper = styled.div`
+const StyledIntraconnectContainer = styled(Container)`
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
 `;
 
 const StyledHeaderContainer = styled(Container)`
   text-align: center;
   padding: 20px;
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
   border-radius: 10px;
-  max-width: 400px;
-  margin-bottom: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
+
 
 const StyledHeader = styled.h1`
   font-family: 'Arial, sans-serif';
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 10px;
+  color: #333;
 `;
+
 
 const StyledSubHeader = styled.h2`
   font-family: 'Arial, sans-serif';
-  font-size: 24px;
+  font-size: 18px;
   color: #3498db;
+  margin-bottom: 20px;
 `;
+
 
 const StyledAboutMeBioContainer = styled(Container)`
   text-align: left;
-  margin-bottom:10px
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto; /* Center the container */
 `;
+
 
 const StyledAboutMeBio = styled.div`
   font-family: 'Arial, sans-serif';
   color: #333;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
@@ -54,21 +61,26 @@ const StyledOfferingsContainer = styled(Container)`
   flex-wrap: wrap;
   justify-content: center;
   max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto; /* Center the container */
 `;
 
 const StyledOfferingCol = styled(Col)`
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   margin-bottom: 20px;
 `;
 
 const StyledTestimonialsContainer = styled(Container)`
   max-width: 800px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto; /* Center the container */
 `;
 
 const StyledTestimonial = styled.div`
   font-family: 'Arial, sans-serif';
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -80,6 +92,7 @@ const StyledTestimonial = styled.div`
 const StyledTestimonialHeader = styled.h3`
   font-weight: bold;
   margin-bottom: 10px;
+  color: #3498db;
 `;
 
 const StyledTestimonialContent = styled.div`
@@ -93,7 +106,7 @@ const StyledListItem = styled.li`
 
 export default function Interconnect() {
   return (
-    <StyledWrapper>
+    <StyledIntraconnectContainer>
       <StyledHeaderContainer>
         <StyledHeader>Interconnect</StyledHeader>
         <StyledSubHeader>Your Bridge to Authentic Marketing</StyledSubHeader>
@@ -126,9 +139,8 @@ export default function Interconnect() {
             <StyledListItem>Strategically researches competitors to generate innovative content ideas.</StyledListItem>
             <StyledListItem>Skilled in Canva, adept at crafting engaging posts and compelling copy for Instagram.</StyledListItem>
           </StyledTestimonialContent>
-
         </StyledTestimonial>
       </StyledTestimonialsContainer>
-    </StyledWrapper>
+    </StyledIntraconnectContainer>
   );
 }

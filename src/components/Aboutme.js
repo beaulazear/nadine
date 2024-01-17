@@ -8,42 +8,42 @@ const StyledAboutmeContainer = styled(Container)`
   flex-direction: column;
   align-items: center;
   max-width: 700px;
-  padding-top: 10px;
+  padding-top: 20px;
 `;
 
 const StyledHeaderContainer = styled(Container)`
   text-align: center;
   padding: 20px;
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
   border-radius: 10px;
-  max-width: 450px;
-  margin-bottom: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
 
 const StyledHeader = styled.h1`
   font-family: 'Arial, sans-serif';
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 10px;
+  color: #333;
 `;
 
 const StyledSubHeader = styled.h2`
   font-family: 'Arial, sans-serif';
-  font-size: 24px;
+  font-size: 18px;
   color: #3498db;
+  margin-bottom: 20px;
 `;
 
 const StyledAboutMeImages = styled(Image)`
-  height: auto;
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
   border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  max-width: 400px; /* Set a max width for the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   margin: 20px 0; /* Added margin-top and margin-bottom for space */
 
   @media (max-width: 550px) {
-    max-width: 250px; /* Set a slightly larger max width for the image when the width is 450px or below */
+    max-width: 300px; /* Set a slightly larger max width for the image when the width is 450px or below */
     border-radius: 50%; /* Make it circular */
   }
 `;
@@ -51,7 +51,7 @@ const StyledAboutMeImages = styled(Image)`
 const StyledAboutMeBio = styled.div`
   font-family: 'Arial, sans-serif';
   color: #333;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   text-align: center;
 `;
