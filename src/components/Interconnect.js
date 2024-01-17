@@ -60,9 +60,8 @@ const StyledOfferingsContainer = styled(Container)`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 2000px;
-  margin-left: auto;
-  margin-right: auto; /* Center the container */
+  max-width: 100%; /* Adjusted max-width */
+  margin: 0 auto; /* Center the container */
 `;
 
 const StyledOfferingCol = styled(Col)`

@@ -43,7 +43,7 @@ const StyledAboutMeImages = styled(Image)`
   margin: 20px 0; /* Added margin-top and margin-bottom for space */
 
   @media (max-width: 550px) {
-    max-width: 300px; /* Set a slightly larger max width for the image when the width is 450px or below */
+    max-width: 350px; /* Set a slightly larger max width for the image when the width is 450px or below */
     border-radius: 50%; /* Make it circular */
   }
 `;
