@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Offering from "./Offering";
 import { marketingOfferingsData } from "../data/marketingOfferings";
 
-const StyledIntraconnectContainer = styled(Container)`
+const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,8 +60,9 @@ const StyledOfferingsContainer = styled(Container)`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 100%; /* Adjusted max-width */
-  margin: 0 auto; /* Center the container */
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto; /* Center the container */
 `;
 
 const StyledOfferingCol = styled(Col)`
@@ -105,7 +106,7 @@ const StyledListItem = styled.li`
 
 export default function Interconnect() {
   return (
-    <StyledIntraconnectContainer>
+    <StyledWrapper>
       <StyledHeaderContainer>
         <StyledHeader>Interconnect</StyledHeader>
         <StyledSubHeader>Your Bridge to Authentic Marketing</StyledSubHeader>
@@ -140,6 +141,6 @@ export default function Interconnect() {
           </StyledTestimonialContent>
         </StyledTestimonial>
       </StyledTestimonialsContainer>
-    </StyledIntraconnectContainer>
+    </StyledWrapper>
   );
 }
