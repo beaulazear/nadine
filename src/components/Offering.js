@@ -7,8 +7,8 @@ const StyledOfferingDiv = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
-  width: 400px; /* Set a fixed width */
-  height: 250px; /* Set a fixed height */
+  width: 350px; /* Set a fixed width */
+  height: 275px; /* Set a fixed height */
   margin: 0 auto;
 `;
 
