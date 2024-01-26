@@ -15,10 +15,13 @@ const StyledWrapper = styled.div`
 const StyledHeaderContainer = styled(Container)`
   text-align: center;
   padding: 20px;
+  width: fit-content;
   background-color: #f5f5f5;
   border-radius: 10px;
   max-width: 600px;
   margin-bottom: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
 
@@ -61,14 +64,15 @@ const StyledOfferingsContainer = styled(Container)`
   flex-wrap: wrap;
   justify-content: center;
   max-width: 2000px;
-  margin-left: auto;
-  margin-right: auto; /* Center the container */
+  margin-left: 5px;
+  margin-right: 5px; /* Center the container */
 `;
 
 const StyledOfferingCol = styled(Col)`
   width: 100%;
   max-width: 450px;
   margin-bottom: 20px;
+  margin-right: 5px;
 `;
 
 const StyledTestimonialsContainer = styled(Container)`

@@ -16,10 +16,13 @@ const StyledIntraconnectContainer = styled(Container)`
 const StyledHeaderContainer = styled(Container)`
   text-align: center;
   padding: 20px;
+  width: fit-content;
   background-color: #f5f5f5;
   border-radius: 10px;
   max-width: 600px;
   margin-bottom: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
 
@@ -52,15 +55,19 @@ const StyledAboutMeBio = styled.div`
 `;
 
 const StyledOfferingsRow = styled(Row)`
-  gap: 20px;
-  justify-content: center;
-  max-width: 2000px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+max-width: 2000px;
+margin-left: 5px;
+margin-right: 5px;
 `;
 
 const StyledOfferingCol = styled(Col)`
-  width: 100%;
-  max-width: 450px;
-  margin-bottom: 20px;
+flex: 1;
+max-width: 450px;
+margin-bottom: 20px;
 `;
 
 const Intraconnect = () => {

@@ -7,8 +7,8 @@ const StyledOfferingDiv = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-bottom: 20px;
-  width: 400px; /* Set a fixed width for all offerings */
-  height: 250px;
+  width: 400px; /* Set a fixed width */
+  height: 250px; /* Set a fixed height */
   margin: 0 auto;
 `;
 
@@ -33,17 +33,17 @@ const StyledDescription = styled.li`
 `;
 
 const Offering = ({ data }) => {
-    return (
-        <StyledOfferingDiv>
-            <StyledHeading>{data.name}</StyledHeading>
-            <StyledSubheading>{data.time}</StyledSubheading>
-            <ul className="offeringDescriptions">
-                {data.descriptions.map((desc) => (
-                    <StyledDescription key={desc.id}>{desc.info}</StyledDescription>
-                ))}
-            </ul>
-        </StyledOfferingDiv>
-    );
+  return (
+    <StyledOfferingDiv>
+      <StyledHeading>{data.name}</StyledHeading>
+      <StyledSubheading>{data.time}</StyledSubheading>
+      <ul className="offeringDescriptions">
+        {data.descriptions.map((desc) => (
+          <StyledDescription key={desc.id}>{desc.info}</StyledDescription>
+        ))}
+      </ul>
+    </StyledOfferingDiv>
+  );
 };
 
 export default Offering;
