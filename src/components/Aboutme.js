@@ -66,7 +66,7 @@ export default function Aboutme() {
     <StyledAboutmeContainer>
       <StyledHeaderContainer>
         <StyledHeader>Nadine Hoopingarner</StyledHeader>
-        <StyledSubHeader>Anthropologist & Consultant</StyledSubHeader>
+        <StyledSubHeader>Modern day Anthropologist</StyledSubHeader>
       </StyledHeaderContainer>
 
       <StyledAboutMeImages src={nadine} alt="Nadine" fluid />
