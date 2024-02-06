@@ -1,7 +1,7 @@
 {
   "name": "react-nadines-app",
   "version": "0.1.0",
-  "homepage": "http://beaulazear.github.io/nadine",
+  "homepage": "http://beaulazear.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
